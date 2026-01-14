@@ -47,7 +47,6 @@
 input,
 select{
     border: 1px solid blue;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 input:focus,
@@ -57,3 +56,8 @@ select:focus{
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
 }
 
+.save-btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+    background-color: #1d4ed8;
+}
