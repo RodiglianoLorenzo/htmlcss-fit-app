@@ -8,56 +8,91 @@
 
 }
 
-.stats-container .stats-grid:nth-child(3) .stat-number{
-    color: white;
-}
-.stats-container .stats-grid:nth-child(3) .stat-label{
+.stats-container .stats-grid:nth-child(3) .stat-number {
     color: white;
 }
 
-.stats-grid:hover{
+.stats-container .stats-grid:nth-child(3) .stat-label {
+    color: white;
+}
+
+.stats-grid:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 1);
 }
 
-.workout-section .workout-plan:nth-child(3){
-   background-color: rgb(255, 248, 186);
-   border-left: 4px solid rgb(243, 156, 18);
+.workout-section .workout-plan:nth-child(3) {
+    background-color: rgb(255, 248, 186);
+    border-left: 4px solid rgb(243, 156, 18);
 }
 
 
-.exercise-item:nth-child(1){
+.exercise-item:nth-child(1) {
     background-color: rgb(240, 255, 244);
     border-left: 4px solid rgb(47, 204, 114);
 }
 
-.exercise-item:nth-child(4){
+.exercise-item:nth-child(4) {
     background-color: rgb(240, 255, 244);
     border-left: 4px solid rgb(47, 204, 114);
 }
 
-.exercise-item:nth-child(2)::before{
+.exercise-item:nth-child(2)::before {
     content: "⚡";
 }
 
-.exercise-item:nth-child(4)::before{
+.exercise-item:nth-child(4)::before {
     content: "⚡";
 }
 
 input,
-select{
+select {
     border: 1px solid blue;
 }
 
 input:focus,
-select:focus{
+select:focus {
     outline: none;
     border-color: blue;
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
 }
 
-.save-btn:hover{
+.save-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
     background-color: #1d4ed8;
 }
+
+.progress-bar {
+    position: relative;
+}
+
+.progress-fill::after {
+    position: absolute;
+    content: "65%";
+    transform: translateY(-7px);
+    right: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.nav-footer .nav-item:nth-child(2):hover{
+    color: rgb(58, 58, 235);
+    background-color: rgb(0, 0, 66);
+}
+
+.nav-footer .nav-item:nth-child(3):hover{
+    color: rgb(58, 58, 235);
+    background-color: rgb(0, 0, 66);
+}
+
+.nav-footer .nav-item:nth-child(4):hover{
+    color: rgb(58, 58, 235);
+    background-color: rgb(0, 0, 66);
+}
+
+.nav-footer .nav-item:first-child{
+    color: rgb(58, 58, 235);
+    background-color: rgb(0, 0, 66);
+}
+   
