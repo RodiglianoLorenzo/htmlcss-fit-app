@@ -24,3 +24,16 @@
    background-color: rgb(255, 248, 186);
    border-left: 4px solid rgb(243, 156, 18);
 }
+
+
+.exercise-item:nth-child(1){
+    background-color: rgb(240, 255, 244);
+    border-left: 4px solid rgb(47, 204, 114);
+}
+
+.exercise-item:nth-child(4){
+    background-color: rgb(240, 255, 244);
+    border-left: 4px solid rgb(47, 204, 114);
+}
+
+
