@@ -1,4 +1,21 @@
 .stats-grid:first-child:before {
-    content: "🔥"; 
+    content: "🔥";
     font-size: 30px;
+}
+
+.stats-grid:last-child {
+    background-color: rgb(123, 68, 231);
+
+}
+
+/*.stats-grid:last-child .stat-number,
+.stats-grid:last-child .stat-label {
+    color: white;
+}*/
+
+.stats-container .stats-grid:nth-child(3) .stat-number{
+    color: white;
+}
+.stats-container .stats-grid:nth-child(3) .stat-label{
+    color: white;
 }
